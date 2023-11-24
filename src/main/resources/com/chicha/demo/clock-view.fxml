@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <?import javafx.scene.layout.AnchorPane?>
+        <?import javafx.scene.shape.Circle?>
+        <?import javafx.scene.shape.Line?>
+        <?import javafx.scene.text.Text?>
+
+<?import java.util.ArrayList?>
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.chicha.demo.ClockController">
+    <children>
+        <Circle fx:id="clockFace" centerX="200.0" centerY="200.0" fill="#F4F4F4" radius="180.0" stroke="BLACK" strokeType="INSIDE" />
+        <Line fx:id="hourHand" endX="200.0" endY="200.0" startX="200.0" startY="120.0" stroke="BLACK" />
+        <Line fx:id="minuteHand" endX="200.0" endY="200.0" startX="200.0" startY="80.0" stroke="BLACK" />
+        <Line fx:id="secondHand" endX="200.0" endY="200.0" startX="200.0" startY="60.0" stroke="#048000"/>
+    </children>
+</AnchorPane>
